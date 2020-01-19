@@ -1,0 +1,252 @@
+# COLUMN plntname:       Planet Name                    
+# COLUMN ra_str:         RA [sexagesimal]                   
+# COLUMN ra:             RA [deg]                   
+# COLUMN dec_str:        Dec [sexagesimal]                  
+# COLUMN dec:            Dec [deg]                  
+# COLUMN mlmassplnj:     Planet Mass [Jupiter mass]                 
+# COLUMN mlmassplnjerr1: Planet Mass Upper Unc. [Jupiter mass]                  
+# COLUMN mlmassplnjerr2: Planet Mass Lower Unc. [Jupiter mass]                  
+# COLUMN mlmassplnjlim:  Planet Mass Limit Flag [Jupiter mass]                  
+# COLUMN mlmassplne:     Planet Mass [Earth mass]                   
+# COLUMN mlmassplneerr1: Planet Mass Upper Unc. [Earth mass]                    
+# COLUMN mlmassplneerr2: Planet Mass Lower Unc. [Earth mass]                    
+# COLUMN mlmassplnelim:  Planet Mass Limit Flag [Earth mass]                    
+# COLUMN mlsmaproj:      Planet-star Projected Semi-major Axis [AU]                 
+# COLUMN mlsmaprojerr1:  Planet-star Projected Semi-major Axis Upper Unc.                   
+# COLUMN mlsmaprojerr2:  Planet-star Projected Semi-major Axis Lower Unc.                   
+# COLUMN mlsmaprojlim:   Planet-star Projected Semi-major Axis Limit Flag                   
+# COLUMN mlmasslens:     Lens Mass [Solar mass]                 
+# COLUMN mlmasslenserr1: Lens Mass Upper Unc.                   
+# COLUMN mlmasslenserr2: Lens Mass Lower Unc.                   
+# COLUMN mlmasslenslim:  Lens Mass Limit Flag                   
+# COLUMN mldistl:        Lens Distance [pc]                 
+# COLUMN mldistlerr1:    Lens Distance Upper Unc.                   
+# COLUMN mldistlerr2:    Lens Distance Lower Unc.                   
+# COLUMN mldistllim:     Lens Distance Limit Flag                   
+# COLUMN mldists:        Source Distance [pc]                   
+# COLUMN mldistserr1:    Source Distance Upper Unc.                 
+# COLUMN mldistserr2:    Source Distance Lower Unc.                 
+# COLUMN mldistslim:     Source Distance Limit Flag                 
+# COLUMN mltsepmin:      Time of Lens-source Minimum Separation [days]                  
+# COLUMN mltsepminerr1:  Time of Lens-source Minimum Separation Upper Unc.                  
+# COLUMN mltsepminerr2:  Time of Lens-source Minimum Separation Lower Unc.                  
+# COLUMN mltsepminlim:   Time of Lens-source Minimum Separation Limit Flag                  
+# COLUMN mlsepminnorm:   Normalized Lens-source Minimum Separation                  
+# COLUMN mlsepminnormerr1: Normalized Lens-source Minimum Separation Upper Unc.                 
+# COLUMN mlsepminnormerr2: Normalized Lens-source Minimum Separation Lower Unc.                 
+# COLUMN mlsepminnormlim: Normalized Lens-source Minimum Separation Limit Flag                  
+# COLUMN mlxtimeein:     Einstein Crossing Time [days]                  
+# COLUMN mlxtimeeinerr1: Einstein Crossing Time Upper Unc.                  
+# COLUMN mlxtimeeinerr2: Einstein Crossing Time Lower Unc.                  
+# COLUMN mlxtimeeinlim:  Einstein Crossing Time Limit Flag                  
+# COLUMN mlradsnorm:     Normalized Source Angular Radius (10^-3)                   
+# COLUMN mlradsnormerr1: Normalized Angular Radius Upper Unc.                   
+# COLUMN mlradsnormerr2: Normalized Angular Radius Lower Unc.                   
+# COLUMN mlradsnormlim:  Normalized Angular Radius Limit Flag                   
+# COLUMN mlsepinsnorp:   Instantaneous Planet-star Projected and Normalized Separation                  
+# COLUMN mlsepinsnorperr1: Instantaneous Planet-star Projected and Normalized Separation Upper Unc.                 
+# COLUMN mlsepinsnorperr2: Instantaneous Planet-star Projected and Normalized Separation Lower Unc.                 
+# COLUMN mlsepinsnorplim: Instantaneous Planet-star Projected and Normalized Separation Limit Flag                  
+# COLUMN mlmassratio:    Planet-star Mass Ratio (10^-4)                 
+# COLUMN mlmassratioerr1: Planet-star Mass Ratio Upper Unc.                 
+# COLUMN mlmassratioerr2: Planet-star Mass Ratio Lower Unc.                 
+# COLUMN mlmassratiolim: Planet-star Mass Ratio Limit Flag                  
+# COLUMN mlangstlax:     Source Trajectory-lens Axis Angle [rad]                    
+# COLUMN mlangstlaxerr1: Source Trajectory-lens Axis Angle Upper Unc.                   
+# COLUMN mlangstlaxerr2: Source Trajectory-lens Axis Angle Lower Unc.                   
+# COLUMN mlangstlaxlim:  Source Trajectory-lens Axis Angle Limit Flag                   
+# COLUMN mlmagis:        Source I-band [mag]                    
+# COLUMN mlmagiserr1:    Source I-band Upper Unc.                   
+# COLUMN mlmagiserr2:    Source I-band Lower Unc.                   
+# COLUMN mlmagislim:     Source I-band Limit Flag                   
+# COLUMN mlmagibl:       Blend I-band [mag]                 
+# COLUMN mlmagiblerr1:   Blend I-band Upper Unc.                    
+# COLUMN mlmagiblerr2:   Blend I-band Lower Unc.                    
+# COLUMN mlmagibllim:    Blend I-band Limit Flag                    
+# COLUMN mlradeinang:    Angular Einstein Radius [mas]                  
+# COLUMN mlradeinangerr1: Angular Einstein Radius Upper Unc.                    
+# COLUMN mlradeinangerr2: Angular Einstein Radius Lower Unc.                    
+# COLUMN mlradeinanglim: Angular Einstein Radius Limit Flag                 
+# COLUMN mlpmrells:      Lens-source Relative Proper Motion [mas/yr]                    
+# COLUMN mlpmrellserr1:  Lens-source Relative Proper Motion Upper Unc.                  
+# COLUMN mlpmrellserr2:  Lens-source Relative Proper Motion Lower Unc.                  
+# COLUMN mlpmrellslim:   Lens-source Relative Proper Motion Limit Flag                  
+# COLUMN mlmodeldef:     Default Model                  
+# COLUMN plntreflink:    Reference                  
+# COLUMN glon:           Galactic Longitude [deg]                   
+# COLUMN glat:           Galactic Latitude [deg]                    
+# COLUMN mlplxrel:       Lens-source Relative Parallax                  
+# COLUMN mlplxrelerr1:   Lens-source Relative Parallax Upper Unc.                   
+# COLUMN mlplxrelerr2:   Lens-source Relative Parallax Lower Unc.                   
+# COLUMN mlplxrellim:    Lens-source Relative Parallax Limit Flag                   
+# COLUMN mlplxmicro:     Microlens Parallax                 
+# COLUMN mlplxmicroerr1: Microlens Parallax Upper Unc.                  
+# COLUMN mlplxmicroerr2: Microlens Parallax Lower Unc.                  
+# COLUMN mlplxmicrolim:  Microlens Parallax Limit Flag                  
+# COLUMN mlplxmicron:    Microlens Parallax (North Component)                   
+# COLUMN mlplxmicronerr1: Microlens Parallax (North Component) Upper Unc.                   
+# COLUMN mlplxmicronerr2: Microlens Parallax (North Component) Lower Unc.                   
+# COLUMN mlplxmicronlim: Microlens Parallax (North Component) Limit Flag                    
+# COLUMN mlplxmicroe:    Microlens Parallax (East Component)                    
+# COLUMN mlplxmicroeerr1: Microlens Parallax (East Component) Upper Unc.                    
+# COLUMN mlplxmicroeerr2: Microlens Parallax (East Component) Lower Unc.                    
+# COLUMN mlplxmicroelim: Microlens Parallax (East Component) Limit Flag                 
+# COLUMN mldsdt:         Planet-star Separation Rate of Change [yr^-1]                  
+# COLUMN mldsdterr1:     Planet-star Separation Rate of Change Upper Unc.                   
+# COLUMN mldsdterr2:     Planet-star Separation Rate of Change Lower Unc.                   
+# COLUMN mldsdtlim:      Planet-star Separation Rate of Change Limit Flag                   
+# COLUMN mldalphadt:     Source Trajectory Angle Rate of Change [rad/yr]                    
+# COLUMN mldalphadterr1: Source Trajectory Angle Rate of Change Upper Unc.                  
+# COLUMN mldalphadterr2: Source Trajectory Angle Rate of Change Lower Unc.                  
+# COLUMN mldalphadtlim:  Source Trajectory Angle Rate of Change Limit Flag                  
+# COLUMN mlradsang:      Source Angular Radius [microas]                    
+# COLUMN mlradsangerr1:  Source Angular Radius Upper Unc.                   
+# COLUMN mlradsangerr2:  Source Angular Radius Lower Unc.                   
+# COLUMN mlradsanglim:   Source Angular Radius Limit Flag                   
+# COLUMN mlradsphy:      Source Physical Radius [Solar Radii]                   
+# COLUMN mlradsphyerr1:  Source Physical Radius Upper Unc.                  
+# COLUMN mlradsphyerr2:  Source Physical Radius Lower Unc.                  
+# COLUMN mlradsphylim:   Source Physical Radius Limit Flag                  
+# COLUMN mlxtimesrc:     Source Crossing Time [days]                    
+# COLUMN mlxtimesrcerr1: Source Crossing Time Upper Unc.                    
+# COLUMN mlxtimesrcerr2: Source Crossing Time Lower Unc.                    
+# COLUMN mlxtimesrclim:  Source Crossing Time Limit Flag                    
+# COLUMN mlefftime:      Effective Timescale [days]                 
+# COLUMN mlefftimeerr1:  Effective Timescale Upper Unc.                 
+# COLUMN mlefftimeerr2:  Effective Timescale Lower Unc.                 
+# COLUMN mlefftimelim:   Effective Timescale Limit Flag                 
+# COLUMN mlpms:          Source Proper Motion [mas/yr]                  
+# COLUMN mlpmserr1:      Source Proper Motion Upper Unc.                    
+# COLUMN mlpmserr2:      Source Proper Motion Lower Unc.                    
+# COLUMN mlpmslim:       Source Proper Motion Limit Flag                    
+# COLUMN mlmagvs:        Source V-band [mag]                    
+# COLUMN mlmagvserr1:    Source V-band Upper Unc.                   
+# COLUMN mlmagvserr2:    Source V-band Lower Unc.                   
+# COLUMN mlmagvslim:     Source V-band Limit Flag                   
+# COLUMN mlmagvso:       Source De-reddened V-band [mag]                    
+# COLUMN mlmagvsoerr1:   Source De-reddened V-band Upper Unc.                   
+# COLUMN mlmagvsoerr2:   Source De-reddened V-band Lower Unc.                   
+# COLUMN mlmagvsolim:    Source De-reddened V-band Limit Flag                   
+# COLUMN mlmagiso:       Source De-reddened I-band [mag]                    
+# COLUMN mlmagisoerr1:   Source De-reddened I-band Upper Unc.                   
+# COLUMN mlmagisoerr2:   Source De-reddened I-band Lower Unc.                   
+# COLUMN mlmagisolim:    Source De-reddened I-band Limit Flag                   
+# COLUMN mlmagjs:        Source J-band [mag]                    
+# COLUMN mlmagjserr1:    Source J-band Upper Unc.                   
+# COLUMN mlmagjserr2:    Source J-band Lower Unc.                   
+# COLUMN mlmagjslim:     Source J-band Limit Flag                   
+# COLUMN mlmagjso:       Source De-reddened J-band [mag]                    
+# COLUMN mlmagjsoerr1:   Source De-reddened J-band Upper Unc.                   
+# COLUMN mlmagjsoerr2:   Source De-reddened J-band Lower Unc.                   
+# COLUMN mlmagjsolim:    Source De-reddened J-band Limit Flag                   
+# COLUMN mlmaghs:        Source H-band [mag]                    
+# COLUMN mlmaghserr1:    Source H-band Upper Unc.                   
+# COLUMN mlmaghserr2:    Source H-band Lower Unc.                   
+# COLUMN mlmaghslim:     Source H-band Limit Flag                   
+# COLUMN mlmaghso:       Source De-reddened H-band [mag]                    
+# COLUMN mlmaghsoerr1:   Source De-reddened H-band Upper Unc.                   
+# COLUMN mlmaghsoerr2:   Source De-reddened H-band Lower Unc.                   
+# COLUMN mlmaghsolim:    Source De-reddened H-band Limit Flag                   
+# COLUMN mlmagks:        Source K-band [mag]                    
+# COLUMN mlmagkserr1:    Source K-band Upper Unc.                   
+# COLUMN mlmagkserr2:    Source K-band Lower Unc.                   
+# COLUMN mlmagkslim:     Source K-band Limit Flag                   
+# COLUMN mlmagkso:       Source De-reddened K-band [mag]                    
+# COLUMN mlmagksoerr1:   Source De-reddened K-band Upper Unc.                   
+# COLUMN mlmagksoerr2:   Source De-reddened K-band Lower Unc.                   
+# COLUMN mlmagksolim:    Source De-reddened K-band Limit Flag                   
+# COLUMN mlmagibase:     Event Baseline I-band [mag]                    
+# COLUMN mlmagibaseerr1: Event Baseline I-band Upper Unc.                   
+# COLUMN mlmagibaseerr2: Event Baseline I-band Lower Unc.                   
+# COLUMN mlmagibaselim:  Event Baseline I-band Limit Flag                   
+# COLUMN mlmagvl:        Lens V-band [mag]                  
+# COLUMN mlmagvlerr1:    Lens V-band Upper Unc.                 
+# COLUMN mlmagvlerr2:    Lens V-band Lower Unc.                 
+# COLUMN mlmagvllim:     Lens V-band Limit Flag                 
+# COLUMN mlmagil:        Lens I-band [mag]                  
+# COLUMN mlmagilerr1:    Lens I-band Upper Unc.                 
+# COLUMN mlmagilerr2:    Lens I-band Lower Unc.                 
+# COLUMN mlmagillim:     Lens I-band Limit Flag                 
+# COLUMN mlmagjl:        Lens J-band [mag]                  
+# COLUMN mlmagjlerr1:    Lens J-band Upper Unc.                 
+# COLUMN mlmagjlerr2:    Lens J-band Lower Unc.                 
+# COLUMN mlmagjllim:     Lens J-band Limit Flag                 
+# COLUMN mlmaghl:        Lens H-band [mag]                  
+# COLUMN mlmaghlerr1:    Lens H-band Upper Unc.                 
+# COLUMN mlmaghlerr2:    Lens H-band Lower Unc.                 
+# COLUMN mlmaghllim:     Lens H-band Limit Flag                 
+# COLUMN mlmagkl:        Lens K-band [mag]                  
+# COLUMN mlmagklerr1:    Lens K-band [mag] Upper Unc.                   
+# COLUMN mlmagklerr2:    Lens K-band [mag] Lower Unc.                   
+# COLUMN mlmagkllim:     Lens K-band [mag] Limit Flag                   
+# COLUMN mlextvfld:      Line-of-sight V-band Extinction [mag]                  
+# COLUMN mlextvflderr1:  Line-of-sight V-band Extinction Upper Unc.                 
+# COLUMN mlextvflderr2:  Line-of-sight V-band Extinction Lower Unc.                 
+# COLUMN mlextvfldlim:   Line-of-sight V-band Extinction Limit Flag                 
+# COLUMN mlextifld:      Line-of-sight I-band Extinction [mag]                  
+# COLUMN mlextiflderr1:  Line-of-sight I-band Extinction Upper Unc.                 
+# COLUMN mlextiflderr2:  Line-of-sight I-band Extinction Lower Unc.                 
+# COLUMN mlextifldlim:   Line-of-sight I-band Extinction Limit Flag                 
+# COLUMN mlextjfld:      Line-of-sight J-band Extinction [mag]                  
+# COLUMN mlextjflderr1:  Line-of-sight J-band Extinction Upper Unc.                 
+# COLUMN mlextjflderr2:  Line-of-sight J-band Extinction Lower Unc.                 
+# COLUMN mlextjfldlim:   Line-of-sight J-band Extinction Limit Flag                 
+# COLUMN mlexthfld:      Line-of-sight H-band Extinction [mag]                  
+# COLUMN mlexthflderr1:  Line-of-sight H-band Extinction Upper Unc.                 
+# COLUMN mlexthflderr2:  Line-of-sight H-band Extinction Lower Unc.                 
+# COLUMN mlexthfldlim:   Line-of-sight H-band Extinction Limit Flag                 
+# COLUMN mlextkfld:      Line-of-sight K-band Extinction [mag]                  
+# COLUMN mlextkflderr1:  Line-of-sight K-band ExtinctionUpper Unc.                  
+# COLUMN mlextkflderr2:  Line-of-sight K-band Extinction Lower Unc.                 
+# COLUMN mlextkfldlim:   Line-of-sight K-band Extinction Limit Flag                 
+# COLUMN mlcolvis:       Source (V-I) [mag]                 
+# COLUMN mlcolviserr1:   Source (V-I) Upper Unc.                    
+# COLUMN mlcolviserr2:   Source (V-I) Lower Unc.                    
+# COLUMN mlcolvislim:    Source (V-I) Limit Flag                    
+# COLUMN mlcolviso:      Source De-reddened (V-I) [mag]                 
+# COLUMN mlcolvisoerr1:  Source De-reddened (V-I) Upper Unc.                    
+# COLUMN mlcolvisoerr2:  Source De-reddened (V-I) Lower Unc.                    
+# COLUMN mlcolvisolim:   Source De-reddened (V-I) Limit Flag                    
+# COLUMN mlcolvks:       Source (V-K) [mag]                 
+# COLUMN mlcolvkserr1:   Source (V-K) Upper Unc.                    
+# COLUMN mlcolvkserr2:   Source (V-K) Lower Unc.                    
+# COLUMN mlcolvkslim:    Source (V-K) Limit Flag                    
+# COLUMN mlcolvkso:      Source De-reddened (V-K) [mag]                 
+# COLUMN mlcolvksoerr1:  Source De-reddened (V-K) Upper Unc.                    
+# COLUMN mlcolvksoerr2:  Source De-reddened (V-K) Lower Unc.                    
+# COLUMN mlcolvksolim:   Source De-reddened (V-K) Limit Flag                    
+# COLUMN mlcolihs:       Source (I-H) [mag]                 
+# COLUMN mlcolihserr1:   Source (I-H) Upper Unc.                    
+# COLUMN mlcolihserr2:   Source (I-H) Lower Unc.                    
+# COLUMN mlcolihslim:    Source (I-H) Limit Flag                    
+# COLUMN mlcolihso:      Source De-reddened (I-H) [mag]                 
+# COLUMN mlcolihsoerr1:  Source De-reddened (I-H) Upper Unc.                    
+# COLUMN mlcolihsoerr2:  Source De-reddened (I-H) Lower Unc.                    
+# COLUMN mlcolihsolim:   Source De-reddened (I-H) Limit Flag                    
+# COLUMN mlcolhks:       Source (H-K) [mag]                 
+# COLUMN mlcolhkserr1:   Source (H-K) Upper Unc.                    
+# COLUMN mlcolhkserr2:   Source (H-K) Lower Unc.                    
+# COLUMN mlcolhkslim:    Source (H-K) Limit Flag                    
+# COLUMN mlcolhkso:      Source De-reddened (H-K) [mag]                 
+# COLUMN mlcolhksoerr1:  Source De-reddened (H-K) Upper Unc.                    
+# COLUMN mlcolhksoerr2:  Source De-reddened (H-K) Lower Unc.                    
+# COLUMN mlcolhksolim:   Source De-reddened (H-K) Limit Flag                    
+# COLUMN mlcolvibl:      Blend (V-I) [mag]                  
+# COLUMN mlcolviblerr1:  Blend (V-I) Upper Unc.                 
+# COLUMN mlcolviblerr2:  Blend (V-I) Lower Unc.                 
+# COLUMN mlcolvibllim:   Blend (V-I) Limit Flag                 
+# COLUMN mlredvi:        Line-of-sight Reddening E(V-I) [mag]                   
+# COLUMN mlredvierr1:    Line-of-sight Reddening E(V-I) Upper Unc.                  
+# COLUMN mlredvierr2:    Line-of-sight Reddening E(V-I) Lower Unc.                  
+# COLUMN mlredvilim:     Line-of-sight Reddening E(V-I) Limit Flag                  
+# COLUMN mlredvk:        Line-of-sight Reddening E(V-K) [mag]                   
+# COLUMN mlredvkerr1:    Line-of-sight Reddening E(V-K) Upper Unc.                  
+# COLUMN mlredvkerr2:    Line-of-sight Reddening E(V-K) Lower Unc.                  
+# COLUMN mlredvklim:     Line-of-sight Reddening E(V-K) Limit Flag                  
+# COLUMN mlredhk:        Line-of-sight Reddening E(H-K) [mag]                   
+# COLUMN mlredhkerr1:    Line-of-sight Reddening E(H-K) Upper Unc.                  
+# COLUMN mlredhkerr2:    Line-of-sight Reddening E(H-K) Lower Unc.                  
+# COLUMN mlredhklim:     Line-of-sight Reddening E(H-K) Limit Flag                  
+# COLUMN mlmodelchisq:   Model Chi-squared                  
+# COLUMN mlcbflag:       Circumbinary Flag                  
+# COLUMN mldescription:  Model Description                  
